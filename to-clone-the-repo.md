@@ -12,15 +12,19 @@ After installing git open terminal and
 
 set the git config global information by running the following commands.
 
-> `git config --global user.name "Your Name"`
+```
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
 
-> `git config --global user.email "your.email@example.com"`
-
-Change replace the placeholder data with your own.
+Replace the placeholder data with your own.
 
 ### *Step 4*
 Open `Git bash` terminal and create a public-private key pair, using the command:
-> `ssh-keygen -t rsa -b 4096 -f ~/.ssh/vkmkey`
+
+```
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/vkmkey
+```
 
 ### *Step 5*
 go to `~/.ssh` folder and open the file `vkmkey.pub`, then copy the content of that file.
@@ -44,13 +48,17 @@ Use the following commands to tell the terminal which Private key
 
 to use to authenticate with, when using the git command.
 
-> `eval "$(ssh-agent -s)"`
-
-> `ssh-add ~/.ssh/vkmkey`
+```
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/vkmkey
+```
 
 ### *Step 9*
 Use the following command to clone the repository to your local maching.
-> `git clone git@github.com:tnuocca-wen/vkm-openemr.git`
+
+```
+git clone git@github.com:tnuocca-wen/vkm-openemr.git
+```
 
 
 [1]: <https://github.com> "GitHub Home Page"
