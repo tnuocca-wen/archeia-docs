@@ -17,6 +17,11 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
+<<<<<<< HEAD
+=======
+> `git config --global user.email "your.email@example.com"`
+
+>>>>>>> refs/remotes/origin/main
 Replace the placeholder data with your own.
 
 ### *Step 4*
