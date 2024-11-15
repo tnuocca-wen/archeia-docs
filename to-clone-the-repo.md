@@ -16,7 +16,7 @@ set the git config global information by running the following commands.
 
 > `git config --global user.email "your.email@example.com"`
 
-Change replace the placeholder data with your own.
+Replace the placeholder data with your own.
 
 ### *Step 4*
 Open `Git bash` terminal and create a public-private key pair, using the command:
